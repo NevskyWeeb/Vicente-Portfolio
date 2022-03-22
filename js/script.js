@@ -98,6 +98,6 @@ function sendEmail() {
     }
 
     emailjs.send('service_qyti77i', 'template_g1p7ah8', tempParams).then(function (res) {
-        console.log("success", res.status);
+        alert("success", res.status);
     });
 }
